@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4682b4"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout0"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Check the boxes you'll use as nodes"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="and then input your datas"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:buttonTint="#BBBBBB" />
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:hint="Input"
+                    android:inputType="text"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:layout_gravity="center"
+                    android:enabled="false"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="invisible">
+
+                    <CheckBox
+                        android:id="@+id/checkBox2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText2"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="invisible">
+
+                    <CheckBox
+                        android:id="@+id/checkBox3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText3"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="invisible">
+
+                    <CheckBox
+                        android:id="@+id/checkBox4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText4"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="invisible">
+
+                    <CheckBox
+                        android:id="@+id/checkBox5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText5"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="invisible">
+
+                    <CheckBox
+                        android:id="@+id/checkBox6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText6"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="invisible">
+
+                    <CheckBox
+                        android:id="@+id/checkBox7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText7"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="invisible">
+
+                    <CheckBox
+                        android:id="@+id/checkBox8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText8"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="invisible">
+
+                    <CheckBox
+                        android:id="@+id/checkBox9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText9"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="invisible">
+
+                    <CheckBox
+                        android:id="@+id/checkBox10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText10"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="invisible">
+
+                    <CheckBox
+                        android:id="@+id/checkBox11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText11"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="invisible">
+
+                    <CheckBox
+                        android:id="@+id/checkBox12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText12"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="invisible">
+
+                    <CheckBox
+                        android:id="@+id/checkBox13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText13"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="invisible">
+
+                    <CheckBox
+                        android:id="@+id/checkBox14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText14"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="invisible">
+
+                    <CheckBox
+                        android:id="@+id/checkBox15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText15"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/checkBox16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText16"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/checkBox17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText17"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/checkBox18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText18"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/checkBox19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText19"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/checkBox20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText20"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/checkBox21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText21"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/checkBox22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText22"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/checkBox23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText23"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/checkBox24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText24"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/checkBox25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText25"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/checkBox26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText26"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/checkBox27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText27"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/checkBox28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText28"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/checkBox29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText29"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/checkBox30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText30"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/checkBox31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="#BBBBBB"/>
+                    <EditText
+                        android:id="@+id/editText31"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Input"
+                        android:inputType="text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <LinearLayout
+        android:id="@+id/rootLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="10dp"
+            android:onClick="onButton1Clicked"
+            android:text="SUBMIT" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="for Traversal Output View"
+            android:textColor="#FFFFFF"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        />
+
+
+    </LinearLayout>
+
+</LinearLayout>
